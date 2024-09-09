@@ -63,23 +63,32 @@ def Functions():
     
 ################################################################
 def Advanced_functions():
-    choice = input.strip("""
-    Hi! Welcome to the main menu.
-    
-    __________
-    What would you like to do today?
-    1 - Give me a range
-    2 - Give me a range with an exluded range
-    3 - Make a paragraph
-    4 - End
-    """)
-    
-    try:
-        choice = int(choice) # Converts the choice to an integer
-    except:
-        print("Error: Invalid choice \nPlease enter either '1', '2', '3', or '4' without apostrophes")
-    
-    if choice < 1:
+    while True:
+        choice = input.strip("""
+        Hi! Welcome to the main menu.
+        
+        __________
+        What would you like to do today?
+        1 - Give me a range
+        2 - Give me a range with an excluded range
+        3 - Make a paragraph
+        4 - End
+        """)
+        
+        try:
+            choice = int(choice) # Converts the choice to an integer
+        except:
+            print("Error: Invalid choice \nPlease enter either '1', '2', '3', or '4' without apostrophes")
+        
+        if choice >= 1 and choice <=4:
+            if choice == 1:
+                bla
+            if choice == 2:
+                bla
+            if xhoice == 3
+        else:
+            print("Error: Choice out of range. \nPlease enter either '1', '2', '3', or '4' without apostrophes")
+        
         
     
     
