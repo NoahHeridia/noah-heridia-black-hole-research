@@ -1,5 +1,6 @@
 import math #Imports the math library
 import random #Imports the random library
+import numpy #Imports the numpy library
 
 def Python_basics():
     # Variables and Data Types: 
@@ -60,7 +61,6 @@ def Python_basics():
     sentence = name + "'s comments:\n" + input("Write a comment: ")
     print(sentence)
     
-
 ################################################################
 def Control_flow():
     # If-elif-else statements:
@@ -218,5 +218,5 @@ calculator()
 
 #Python_basics()
 #Control_flow()
-#Functions()
+Functions()
 #Advanced_functions()
