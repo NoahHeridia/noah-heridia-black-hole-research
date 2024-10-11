@@ -218,5 +218,5 @@ calculator()
 
 #Python_basics()
 #Control_flow()
-Functions()
-#Advanced_functions()
+#Functions()
+Advanced_functions()
